@@ -5,7 +5,6 @@ import { MINIMAL_MARKET_STATE_LAYOUT_V3 } from '../liquidity';
 export type MinimalMarketStateLayoutV3 = typeof MINIMAL_MARKET_STATE_LAYOUT_V3;
 export type MinimalMarketLayoutV3 =
   GetStructureSchema<MinimalMarketStateLayoutV3>;
-
 export async function getMinimalMarketV3(
   connection: Connection,
   marketId: PublicKey,
